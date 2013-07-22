@@ -80,13 +80,23 @@
 						</p>
 
 						<p>
-							IBP at its heart relies on Identity-Based-One-Time-Key Generator running on trusted server.
-							As a trusted server you can use your smartphone, tablet, corporate server or some of the fallback servers that I hope will be available in the near future.
-							All user's data are encrypted on the client side and never touch trusted server with key generator.
+							IBP at its heart relies on Identity-Based-One-Time-Key Generator running as a trusted keychain server.
+							<ul>
+							There are three main types of keychain servers:
+							<li>1. Any corporate server can run as a trusted keychain server.</li>
+							<li>2. You can turn your own smartphone, tablet or home computer into your private keychain server.</li>
+							<li>3. You can use some of the fallback keychain servers that I hope will be available in the near future.</li>
+							</ul>
 						</p>
 						
 						<p>
-							Main feature: Shared privacy!
+							IBP uses client-side zero-knowledge encryption.
+							All users' data are encrypted on the client side and never touch servers in a plain form.
+							Cloud data storage provider has zero knowledge of the encryption keys and key generator server has zero knowledge of users' data.
+						</p>
+
+						<p>
+							Main feature: Shared privacy!</br>
 							As in real life your shared privacy with your family, friends or colleagues is determined by their names, in IBP system your shared privacy is determined by their email addresses.
 						</p>
 						
