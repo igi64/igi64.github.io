@@ -1,6 +1,6 @@
 # igi64.github.io
 
-The http://igi64.github.io/ website.
+The [igi64.github.io](http://igi64.github.io/) website.
 
 ## License
 
