@@ -74,32 +74,32 @@ body {
 	/* CSS3 gradient background pattern @credits http://leaverou.me/demos/css3-patterns.html */
 	background-color: #eee; /* Change this to change both stribe colors */
 	
-	background-image: -webkit-gradient(linear, 0 100%, 100% 0,
+	/*background-image: -webkit-gradient(linear, 0 100%, 100% 0,
 							color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
 							color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
 							color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
-							to(transparent)); /* Old webkit syntax */
-	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							to(transparent));*/ /* Old webkit syntax */
+	/*background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
 							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
-							transparent 75%, transparent); /* New webkit syntax */					
-	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 75%, transparent);*/ /* New webkit syntax */					
+	/*background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
 							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
-							transparent 75%, transparent); /* Firefox */
-	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 75%, transparent);*/ /* Firefox */
+	/*background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
 							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
-							transparent 75%, transparent); /* Opera */
-	background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 75%, transparent);*/ /* Opera */
+	/*background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
 							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
-							transparent 75%, transparent); /* WC3 */
-	background-size: 16px 16px;	
+							transparent 75%, transparent);*/ /* WC3 */
+	/*background-size: 16px 16px;*/	
 }
 
 	/* Browsers who don't support gradients */
-	.no-cssgradients body {
+	/*.no-cssgradients body {
 		background-image: url(images/bg.png);
 		background-repeat: repeat;
 		background-attachment: fixed;
-	}
+	}*/
 
 /* Always force a scrollbar in non-IE 
 	Remove iOS text size adjust without disabling user zoom: www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
