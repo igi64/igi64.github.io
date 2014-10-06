@@ -1,6 +1,9 @@
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
@@ -10,9 +13,9 @@
     <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Internet of Everything</title>
+    <title>IBP</title>
 
-	<meta name="description" content="Internet of Everything">
+	<meta name="description" content="Identity-Based Privacy">
 	<!--meta name="viewport" content="width=1024, user-scalable=no"-->
     
      <!-- Mobile viewport optimized: j.mp/bplateviewport -->
@@ -26,8 +29,6 @@
     <script src="js/modernizr-1.7.min.js"></script>
     <script src="js/respond.min.js"></script>
 </head>
-
-<body>
 
 	<div id="wrapper">
 
@@ -46,12 +47,12 @@
 			<nav id="menu" class="clearfix" role="navigation">
 				<ul> 
 					<li><a href="index.html">Home</a></li>
-					<li class="current"><a href="ioe.html">Internet of Everything</a></li>
+					<li><a href="ioe.html">Internet of Everything</a></li>
 					<li><a href="idp.html">IdP</a></li>
 					<li><a href="irm.html">IRM</a></li>
 					<li><a href="iot.html">IoT</a></li>
 					<li><a href="rcs.html">RCS</a></li>
-					<li><a href="ibp.html"><em>IBP</em></a></li>
+					<li class="current"><a href="ibp.html"><em>IBP</em></a></li>
 					<li><a href="airybox.html"><em>airybox</em></a></li>
 					<li><a href="airykey.html"><em>airykey</em></a></li>
 				</ul>
@@ -61,66 +62,75 @@
 			
 				<article class="post">
 				
-					<h2 class="entry-title"><a href="ioe.html">Internet of Everything</a></h2>
+					<h2 class="entry-title"><a href="rcs.html">Identity-Based Privacy</a></h2>
 					
 					<div class="entry-content">
 						<p>
-							Cisco defines <a href="http://internetofeverything.cisco.com/learn/ioe-faq">Internet of Everything</a> (IoE) as bringing together people, processes, data, and things to make networked connections.
-							The network plays a critical role in the IoE - it must provide an intelligent, manageable, secure infrastructure that can scale to support billions of context-aware devices.
+							I have designed a new decentralized Identity-Based Privacy (IBP) trusted model built around <a href="http://oauth.net/2/">OAuth2</a>, <a href="http://openid.net/connect">OpenID Connect</a> (OIDC) and <a href="http://en.wikipedia.org/wiki/User-Managed_Access">User-Managed Access</a> (UMA) standards.
+							IBP model supports <a href="http://en.wikipedia.org/wiki/Privacy_by_Design">Privacy by Design</a> (PbD) principles.
 						</p>
 						
 						<p>
-							There are four principal issues that are going to have to be resolved.
+							Why <b>Identity</b> and not <b>Anonymity</b> to preserve privacy? Easy, Anonymity does not overlap with Transparency, but Privacy does.
+							Privacy hand in hand with Transparency, are the fundamental stones of the modern world.
+						</p>
+						
+						<p>
+							<strong>IBP Use Cases:</strong> 
 							<ul> 
-								<li>Connectivity</li>
-								<li>Identity</li>
-								<li>Manageability</li>
-								<!--li>Data Storage</li-->
-								<li>Security and Privacy</li>
+								<li>
+									<a href="ioe.html">Internet of Everything</a> - meshed peer-to-peer communication between people, devices, and things.
+								</li>
+								<li>
+									<a href="airybox.html">Secure Electronic Data Delivery Service</a> - sharing encrypted information through data storage.
+								</li>
 							</ul>
 						</p>
+						
+						<p>
+							
+						</p>
+						
+						<p>
+							<b>IBP Model I. for Secure Electronic Data Delivery Service</b>
+						</p>	
 
 						<p>
-							In the below picture you can see my vision of what an IoE network platform should look like.
+							<img src="images/IBP-I-model.png" alt="IBP - Model I. © Igor Zboran" style="max-width: 100%;max-height: 100%"/>							
 						</p>
 						
 						<p>
-							<h4>IoE Stack</h4>
-						</p>
-						
-						<p>
-							<img src="images/ioe.png" alt="Internet of Everything Stack" style="max-width: 100%;max-height: 100%"/>
-						</p>
-						
-						<p>
-							The IoE Stack addresses a design model to handle connectivity, identity, manageability, security and privacy issues.
-						</p>
-						
-						<p>
-							<b>Connectivity</b></br>
-							<a href="http://en.wikipedia.org/wiki/Interactive_Connectivity_Establishment">Interactive Connectivity Establishment</a> (ICE) is a standardized mechanism for establishing peer-to-peer communication between software agents running behind NAT firewalls.
-							In a distributed and heterogeneous IoE scenario, this mechanism comes handy for <a href="rcs.html">interconnecting people and devices</a> inside and outside the enterprise boundaries.
-						</p>
-						
-						<p>
-							<b>Identity</b></br>
-							Modern Identity Management is an enabler for networked people and devices.
-							A new OpenID Connect authentication standard can be implemented across virtually any application or service.
-							A trusted <a href="idp.html">OpenID Connect Identity Provider</a> can ensure identity across people and IoT devices. 
-						</p>
+							<b>IBP Model II. for Internet of Everything</b>
+						</p>	
 
 						<p>
-							<b>Manageability</b></br>
-							An essential part of managing trust and security in the IoE world is Identity and Access Management.
-							One of the ways to manage meshed network connections between people and devices is through <a href="irm.html">Identity-Based Publish/Subscribe Relationships</a>.
+							<img src="images/IBP-II-model.png" alt="IBP - Model II. © Igor Zboran" style="max-width: 100%;max-height: 100%"/>							
 						</p>
+						
+						<p>
+							<b>IBP Pentagon Model</b></br>
+							Model I. merged with Model II.
+						</p>	
 
 						<p>
-							<b>Security and Privacy</b></br>
-							<a href="http://en.wikipedia.org/wiki/Datagram_Transport_Layer_Security">Datagram Transport Layer Security</a> (DTLS) is used to provide communications security and privacy for datagram protocols.
-							DTLS allows <a href="iot.html">datagram-based applications</a> to communicate in a way that is designed to prevent eavesdropping, tampering, or message forgery.
+							<img src="images/IBP-pentagon-model.png" alt="IBP - Pentagon Model © Igor Zboran" style="max-width: 100%;max-height: 100%"/>							
 						</p>
-					</div>
+						
+						<p>
+							IBP - overall opportunities: 
+							<ul> 
+								<li><a href="ioe.html">Internet of Everything</a></li>
+								<li><a href="airybox.html">Secure electronic data delivery for Electronic Postal Services</a></li>
+								<li>Rich Communication Services</li>
+								<li>Managed File Transfer (MFT) alternative</li>
+								<li>Product Design and Development (engineering) data storage</li>
+								<li>Secure data storage for Science & Research teams</li>
+								<li>Supply chain collaboration</li>
+								<li>Healthcare services</li>
+								<li>New email-like services</li>
+								<li>New telecommunications services</li>
+							</ul>
+						</p> 
 					
 				</article> <!-- .post 1 -->
 			
