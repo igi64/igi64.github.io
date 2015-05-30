@@ -76,11 +76,10 @@
 						
 						<p>
 							The IBN architecture that is built on top of the WebRTC network can be thought of as a network of trust identities.
-							The WebRTC peer-to-peer technology in combination with federated <a href="#idrp">Identity and Identity Relationship Providers</a> creates a composite IBN architecture that meets the needs of the Internet of Everything ecosystem.
 						</p>
 
 						<p>
-							<b>IBN - Pentagon Model for Internet of Everything</b>
+							<b>IBN - Conceptual Architecture</b>
 						</p>	
 
 						<p>
@@ -88,50 +87,52 @@
 						</p>
 												
 						<p>
-							This trust-to-trust communication can be divided into six phases.
+						    The <a name="idrp">Identity Relationship Provider</a> (IdRP) is a trusted place that, after credential validation, issues identity relationship information and where <a href="irm.html">relationship management</a> takes place.
 						</p>
 						
 						<p>
-							<b>IBN Architecture - Phase I-III.</b></br>
+							The UMA authorization server acts as an OpenID Connect Relying Party.
+							The Publish-Subscribe service is known as a "protected resource" and can be integrated into the UMA service or run on an external Resource Server.
+							The UMA authorization server controls, via Publish-Subscribe service, relationships between users, agents and between users and agents.
+						</p>
+						
+						<p>
+							The Agent, can be for example, the User Agent, Hub Agent, File Transfer Agent or the Internet of Things Agent (Home Health Monitoring, Refrigerator etc.).
+						</p>
+						
+						<p>
+							This trust-to-trust communication between all five parties can be divided into six phases.
+						</p>
+						
+						<p>
+							<b>IBN communication - Phase I-III.</b></br>
 							register, get authorization, set up a relationship</br>
 							<img src="images/IBN-I-III.png" alt="IBN Phase I-III." style="max-width: 100%;max-height: 100%"/>
 							
 						</p>
 
 						<p>
-							<b>IBN Architecture - Phase IV-V.</b></br>
+							<b>IBN communication - Phase IV-V.</b></br>
 							get authorization, session establishment</br>
 							<img src="images/IBN-IV-V.png" alt="IBN Phase IV-V." style="max-width: 100%;max-height: 100%"/>
 							
 						</p>
 						
 						<p>
-							<b>IBN Architecture - Phase VI.</b></br>
+							<b>IBN communication - Phase VI.</b></br>
 							exchange data</br>
 							<img src="images/IBN-VI.png" alt="IBN Phase VI." style="max-width: 100%;max-height: 100%"/>
 							
 						</p>
 						
 						<p>
-							The Agent, can be for example, the User Agent, the Hub Agent, the File Transfer Agent or the Internet of Things Agent (Home Health Monitoring Agent, Refrigerator Agent etc.).
-						</p>
-						
-						<p>
-							The Relationship Controller controls relationships between users, agents and between users and agents.
-						</p>
-						
-						<p>
-						    The <a name="idrp">Identity Relationship Provider</a> (IdRP) is a trusted place that, after credential validation, issues identity relationship information and where <a href="irm.html">relationship management</a> takes place.
-						</p>
-						
-						<p>
-							The Publish-Subscribe Service can be integrated into the IdRP or run as an external Relaying Party.
+							The WebRTC peer-to-peer technology in combination with federated Identity and Identity Relationship Providers creates a composite IBN architecture that meets the needs of the Internet of Everything ecosystem.
 						</p>
 						
 						<p>
 							This architecture does not add an extra layer to the network stack, it is a pure combination of existing systems and technologies and thus the overhead added by IBN architecture to the existing network infrastructure is negligible.
 						</p>
-												
+							
 						<p>
 							An identity-based network communication approach is a better fit for the distributed nature of cloud computing and has intrinsic privacy-preserving properties.
 						</p>
