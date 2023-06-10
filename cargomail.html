@@ -10,15 +10,12 @@
     <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Igor Zboran</title>
-	
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Cargomail—a revised email system</title>
 
-	<meta name="description" content="Cloud Computing, Privacy Protection, Solutions Architecture">
-	<meta name="keywords" content="internet of everything, cloud computing, privacy protection, solutions architecture, consulting, system integration, process analysis, software developing, implementing, training" />
+	<meta name="description" content="Future Internet">
 	<!--meta name="viewport" content="width=1024, user-scalable=no"-->
     
-    <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+     <!-- Mobile viewport optimized: j.mp/bplateviewport -->
  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <link href="style.css" rel="stylesheet" />
@@ -26,7 +23,7 @@
     
     <!-- All JavaScript at the bottom, except for Modernizr and Respond.
     	Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
-    <!-- <script src="js/modernizr.js"></script> -->
+    <!-- <script src="js/modernizr.min.js"></script> -->
     <script src="js/respond.min.js"></script>
 </head>
 
@@ -38,7 +35,7 @@
 		
 			<hgroup>
 				<h1 id="site-title"><a href="index.html"><img src="images/igi64.github.io.png" alt="igi64.github.io"/></a></h1>
-				<!--h2 id="site-description">One-stop ICT services!</h2-->
+				<!--h2 id="site-description">This is an awesome description of the site!</h2-->
 			</hgroup>
 		
 		</header> <!-- #header -->
@@ -48,8 +45,8 @@
 			<!-- Navigation -->
 			<nav id="menu" class="clearfix" role="navigation">
 				<ul> 
-					<li class="current"><a href="index.html">Introduction</a></li>
-					<li><a href="cargomail.html">Cargomail</a></li>
+					<li><a href="index.html">Introduction</a></li>
+					<li class="current"><a href="cargomail.html">Cargomail</a></li>
 					<li><a href="grip.html">GRIP</a></li>
 				</ul>
 			</nav> <!-- #nav -->
@@ -58,30 +55,28 @@
 			
 				<article class="post">
 				
-					<h2 class="entry-title"><a href="index.html">Introduction</a></h2>
-					
-					<figure>
-						<a href="http://sk.linkedin.com/in/zboran"><img src="images/igor-zboran-50-48x48.png" alt="Igor Zboran" class="thumbnail alignleft" /></a>
-					</figure>
+					<h2 class="entry-title"><a href="cargomail.html">Cargomail, a revised email system</a></h2>
 					
 					<div class="entry-content">
+
 						<p>
-							My name is Igor Zboran. I am an independent scientist and software developer with over twenty-five years of experience in research and development in the Information and Communications Technology (ICT) industry.
-							I want to transform my knowledge into a practical system or service that people would love to use.						</p>
+							Email is the most pervasive form of business information exchange.
+							It is used as an interpersonal communication tool and often as a default choice to send files.
+							Despite the importance of the email system, the whole ecosystem relies on 50-year-old architecture and protocol design.
+						</p>
 						<br/>
 						<p>
-							Over the past few years, I have noticed a decline in email infrastructure.
-							Email delivery is only reliable among a few global providers.
-							Large attachments are shared via their silos. Spam is a constant issue.
-							To address these issues, I have written two white papers: <a href="cargomail.html">Cargomail—a revised email system</a>; and the <a href="grip.html">Global Reference Identity Protocol (GRIP)</a>.
-							With this fresh outlook on the email system, we can envision a world where email is a means rather than an obstacle to communication.
-							The world where you can exchange messages, documents, images, videos, and audio without restrictions.
-							Please take the time to review, assess, and provide feedback on my effort to create a better world.
-						</p>						
-					</div> <!-- .entry-content -->
+							Cargomail uses an architecture that separates the identifier and the locator of the address/mailbox pair to introduce a new type of mailbox—a resource mailbox.
+							This approach offers a new way of organizing data transmission.
+							It enables the exchange of digital resources (assets), e.g., messages, documents, images, audio, and videos.
+							Many other advances in using this new architecture are described in the <a href="https://github.com/cargomail-org/cargomail/raw/main/whitepaper/Cargomail.pdf">Cargomail white paper</a>.
+							The paper is intended to convey both the "big picture" and some technical details.
+							I recommend you read the paper's first page and section V. to understand the "big picture" before delving into the details.
+						</p>
+					</div>
 					
 				</article> <!-- .post 1 -->
-				
+			
 			</div> <!-- #content -->
 			
 			<aside id="sidebar" role="complementary">
@@ -116,7 +111,7 @@
 			</aside> <!-- #sidebar -->
 			
 		</div> <!-- #main -->
-			
+		
 		<footer id="footer">
 			<!-- You're free to remove the credit link to Jayj.dk in the footer, but please, please leave it there :) -->
 			<p>
@@ -125,7 +120,7 @@
 				Design by <a href="http://jayj.dk" title="Design by Jayj.dk">Jayj.dk</a-->
 			</p>
 		</footer> <!-- #footer -->
-
+		
 		<div class="clear"></div>
 
 	</div> <!-- #wrapper -->
